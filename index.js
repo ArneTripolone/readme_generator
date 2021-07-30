@@ -21,26 +21,29 @@ const generateMD = (answers) =>
   `
 # ${answers.title}
 
-## Description
+### Description
 ${answers.description}
 
-## Screenshots
-${answers.visuals}
+### Table of Contents
+${answers.contents}
 
-## Installation
+### Installation
 ${answers.installation}
 
-## Usage
+### Usage
 ${answers.usage}
 
-## Support
-${answers.support}
+### Licence
+${answers.licence}
 
-## Roadmap 
-${answers.roadmap}
+### Contributing 
+${answers.contributing}
 
-## Authors
-${answers.authors}
+### Tests
+${answers.tests}
+
+### Questions
+${answers.questions}
 `;
 
 inquirer
@@ -57,8 +60,8 @@ inquirer
     },
     {
       type: 'input',
-      name: 'visuals',
-      message: 'Upload any screenshots, GIFS or videos of your project here:',
+      name: 'contents',
+      message: 'Provide a table of contents:',
     },
     {
       type: 'input',
@@ -72,18 +75,23 @@ inquirer
     },
     {
       type: 'input',
-      name: 'support',
-      message: 'Where can people go if they need support with your project?',
+      name: 'licence',
+      message: 'Provide the licence for your project:',
     },
     {
       type: 'input',
-      name: 'roadmap',
-      message: 'How could this project be developed further in the future?',
-    },
-    {
-      type: 'input',
-      name: 'authors',
+      name: 'contributing',
       message: 'Who contributed to this project?',
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'What outcomes resulted from your tests?',
+    },
+    {
+      type: 'input',
+      name: 'questions',
+      message: 'What questions do you have about the project?',
     },
   ])
   .then((answers) => {
