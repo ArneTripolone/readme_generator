@@ -44,8 +44,8 @@ GitHub Profiles of contributor(s):
 
 
 ### Questions
-If you have any questions about this repo, please direct them to
-  [](${answers.questions})
+If you have any questions about this repo, please direct them to:
+  [${answers.questions}](${answers.questions})
 
 `
 ;
@@ -77,11 +77,7 @@ inquirer
       name: 'licence',
       message: 'Provide the licence for your project:',
       choices: ['MIT', 'GPL', 'Apache'],
-        filter(val) {
-        return val.toUpperCase();
         },
-
-      },
     {
       type: 'input',
       name: 'contributing',

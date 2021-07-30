@@ -1,12 +1,12 @@
 
-![APACHE Licence](https://img.shields.io/badge/Licence-APACHE-blue)
+![Apache Licence](https://img.shields.io/badge/Licence-Apache-blue)
 
 
 # coding 404
 
 
 ### Description
-    a project designed to test the security of mobile apps
+    here is the background
 
 
 ### Table of Contents
@@ -23,11 +23,11 @@
 
 
 ### Usage
-    here are some examples:
+    here here and here
 
 
 ### Licence
-    APACHE
+    Apache
 
 
 ### Contributing
@@ -36,10 +36,10 @@ GitHub Profiles of contributor(s):
 
 
 ### Tests
-    please see here:
+    some good onese here
 
 
 ### Questions
-If you have any questions about this repo, please direct them to
-  [](arnetripolone@gmail.com)
+If you have any questions about this repo, please direct them to:
+  [arnetripolone@gmail.com](arnetripolone@gmail.com)
 
