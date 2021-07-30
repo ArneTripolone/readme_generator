@@ -19,7 +19,7 @@ const fs = require('fs');
 
 const generateMD = (answers) =>
   `
-[${answers.licence} Licence](https://img.shields.io/badge/Licence-${answers.licence}-blue)
+![${answers.licence} Licence](https://img.shields.io/badge/Licence-${answers.licence}-blue)
 
 # ${answers.title}
 
