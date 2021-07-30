@@ -1,12 +1,12 @@
 
-![APACHE Licence](https://img.shields.io/badge/Licence-APACHE-blue)
+![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue)
 
 
 # Coding 404
 
 
 ### Description
-    a homework assignment
+    A project that enables you to track the weather
 
 
 ### Table of Contents
@@ -19,24 +19,26 @@
 - [Questions](#Questions)
 
 ### Installation
-    no steps needed
+    no steps needed, maybe homebrew
 
 
 ### Usage
-    here are the steps!
+    in the BOM
 
 
 ### Licence
-    APACHE
+    MIT
 
 
 ### Contributing 
-    GitHub Profile: [ArneTripolone](https://github.com/ArneTripolone)
+  [ArneTripolone](https://github.com/ArneTripolone)
 
 
 ### Tests
-    good ones
+    Excellent outcomes
 
 
 ### Questions
-    If you have any questions about this project, please direct them to: [](arnetripolone@gmail.com).
+    If you have any questions about this project, please direct them to: 
+  [](arnetripolone@gmail.com).
+

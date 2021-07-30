@@ -35,7 +35,7 @@ const generateMD = (answers) =>
 
 
 ### Contributing 
-    GitHub Profile: [${answers.contributing}](https://github.com/${answers.contributing})
+  [${answers.contributing}](https://github.com/${answers.contributing})
 
 
 ### Tests
@@ -43,7 +43,9 @@ const generateMD = (answers) =>
 
 
 ### Questions
-    If you have any questions about this project, please direct them to: [](${answers.questions}).
+    If you have any questions about this project, please direct them to: 
+  [](${answers.questions}).
+
 `
 ;
 
