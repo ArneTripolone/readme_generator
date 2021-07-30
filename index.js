@@ -37,7 +37,7 @@ ${answers.usage}
 ${answers.licence}
 
 ### Contributing 
-${answers.contributing}
+[${answers.contributing}](https://github.com/${answers.contributing})
 
 ### Tests
 ${answers.tests}
@@ -85,7 +85,7 @@ inquirer
     {
       type: 'input',
       name: 'contributing',
-      message: 'Who contributed to this project?',
+      message: 'What is your GitHub username?',
     },
     {
       type: 'input',
@@ -105,3 +105,17 @@ inquirer
       err ? console.log(err) : console.log('Successfully created readme.md!')
     );
   });
+
+
+
+  Step 1:-
+  // Create a function that returns a license badge based on which license is passed in
+  // If there is no license, return an empty string
+  Step 2:-
+  // Create a function that returns the license link
+  // If there is no license, return an empty string
+  Step 3:-
+  // Create a function that returns the license section of README
+  // If there is no license, return an empty string
+  Step 4:-
+  // Create a function to generate markdown for README
