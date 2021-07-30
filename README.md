@@ -19,11 +19,11 @@
 - [Questions](#Questions)
 
 ### Installation
-    use homebrew
+    no steps, just enjoy
 
 
 ### Usage
-    here here and here
+    here they are
 
 
 ### Licence
@@ -31,15 +31,15 @@
 
 
 ### Contributing
-GitHub Profiles of contributor(s):
+GitHub profile of contributor(s):
   [ArneTripolone](https://github.com/ArneTripolone)
 
 
 ### Tests
-    some good onese here
+    here are some of the outcomes
 
 
 ### Questions
 If you have any questions about this repo, please direct them to:
-  [arnetripolone@gmail.com](arnetripolone@gmail.com)
+  [mailto](mailto:arnetripolone@gmail.com)
 

@@ -35,7 +35,7 @@ const generateMD = (answers) =>
 
 
 ### Contributing
-GitHub Profiles of contributor(s):
+GitHub profile of contributor(s):
   [${answers.contributing}](https://github.com/${answers.contributing})
 
 
@@ -45,7 +45,7 @@ GitHub Profiles of contributor(s):
 
 ### Questions
 If you have any questions about this repo, please direct them to:
-  [${answers.questions}](${answers.questions})
+  [mailto](mailto:${answers.questions})
 
 `
 ;
