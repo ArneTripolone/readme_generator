@@ -1,19 +1,3 @@
-/*
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-*/
-
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -21,32 +5,42 @@ const generateMD = (answers) =>
   `
 ![${answers.licence} Licence](https://img.shields.io/badge/Licence-${answers.licence}-blue)
 
+
 # ${answers.title}
+
 
 ### Description
 ${answers.description}
 
+
 ### Table of Contents
 ${answers.contents}
+
 
 ### Installation
 ${answers.installation}
 
+
 ### Usage
 ${answers.usage}
+
 
 ### Licence
 ${answers.licence}
 
+
 ### Contributing 
 [${answers.contributing}](https://github.com/${answers.contributing})
+
 
 ### Tests
 ${answers.tests}
 
+
 ### Questions
-${answers.questions}
-`;
+If you have any questions about this project, please direct them to: [](${answers.questions}).
+`
+;
 
 inquirer
   .prompt([
@@ -94,30 +88,14 @@ inquirer
     {
       type: 'input',
       name: 'questions',
-      message: 'What questions do you have about the project?',
+      message: 'Please enter your best email address to direct questions about your project:',
     },
   ])
 
   .then((answers) => {
     const mdPageContent = generateMD(answers);
 
-    fs.writeFile('index.md', mdPageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created readme.md!')
+    fs.writeFile('README.md', mdPageContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
-
-
-/*
-  Step 1:-
-  // Create a function that returns a license badge based on which license is passed in
-  // If there is no license, return an empty string
-  Step 2:-
-  // Create a function that returns the license link
-  // If there is no license, return an empty string
-  Step 3:-
-  // Create a function that returns the license section of README
-  // If there is no license, return an empty string
-  Step 4:-
-  // Create a function to generate markdown for README
-*/
-
