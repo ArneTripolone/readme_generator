@@ -74,10 +74,14 @@ inquirer
       message: 'Provide examples of your project being used:',
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'licence',
       message: 'Provide the licence for your project:',
-    },
+      choices: ['MIT', 'GPL', 'Apache'],
+        //filter(val) {
+          //return val.toLowerCase();
+        //},
+      },
     {
       type: 'input',
       name: 'contributing',
