@@ -1,33 +1,33 @@
 
-![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue)
+![APACHE Licence](https://img.shields.io/badge/Licence-APACHE-blue)
 
 
-# something quite good
+# Coding 404
 
 
 ### Description
-   no backgrounbd yet
+    a homework assignment
 
 
 ### Table of Contents
-   - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Licence](#Licence)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licence](#Licence)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ### Installation
     no steps needed
 
 
 ### Usage
-    example 1 2 and 3
+    here are the steps!
 
 
 ### Licence
-   MIT
+    APACHE
 
 
 ### Contributing 
@@ -35,7 +35,7 @@
 
 
 ### Tests
-    here are some
+    good ones
 
 
 ### Questions

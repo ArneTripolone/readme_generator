@@ -10,17 +10,17 @@ const generateMD = (answers) =>
 
 
 ### Description
-   ${answers.description}
+    ${answers.description}
 
 
 ### Table of Contents
-   - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Licence](#Licence)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licence](#Licence)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ### Installation
     ${answers.installation}
@@ -31,7 +31,7 @@ const generateMD = (answers) =>
 
 
 ### Licence
-   ${answers.licence}
+    ${answers.licence}
 
 
 ### Contributing 
@@ -74,6 +74,10 @@ inquirer
       name: 'licence',
       message: 'Provide the licence for your project:',
       choices: ['MIT', 'GPL', 'Apache'],
+        filter(val) {
+        return val.toUpperCase();
+        },
+
       },
     {
       type: 'input',
