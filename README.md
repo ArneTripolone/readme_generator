@@ -1,37 +1,43 @@
 
-![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue)
+![Apache Licence](https://img.shields.io/badge/Licence-Apache-blue)
 
 
-# Coding_Quiz
+# something good
 
 
 ### Description
-Its pretty good
+  some key features are:
 
 
 ### Table of Contents
-a table of contents here
-
+  - Description [Go to Description section](###Description)
+  - Table of Contents [Go to Table of Contents section](###Table of Contents)
+  - Installation [Go to Installation section](###Installation)
+  - Usage
+  - Licence
+  - Contributing
+  - Tests
+  - Questions
 
 ### Installation
-Where does a table of contents go
+  here are the steps...
 
 
 ### Usage
-dunno bro
+  my project can be used in lots of ways
 
 
 ### Licence
-MIT
+  Apache
 
 
 ### Contributing 
-[ArneTripolone](https://github.com/ArneTripolone)
+  GitHub Profile: [ArneTripolone](https://github.com/ArneTripolone)
 
 
 ### Tests
-SOme good ones
+  Lots and lots of good ones
 
 
 ### Questions
-If you have any questions about this project, please direct them to: arnetripolone@gmail.com.
+  If you have any questions about this project, please direct them to: [](arnetripolone@gmail.com).

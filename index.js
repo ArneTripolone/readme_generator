@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateMD = (answers) =>
-  `
+`
 ![${answers.licence} Licence](https://img.shields.io/badge/Licence-${answers.licence}-blue)
 
 
@@ -10,35 +10,41 @@ const generateMD = (answers) =>
 
 
 ### Description
-${answers.description}
+  ${answers.description}
 
 
 ### Table of Contents
-${answers.contents}
-
+  - Description [Go to Description section](###Description)
+  - Table of Contents [Go to Table of Contents section](###Table of Contents)
+  - Installation [Go to Installation section](###Installation)
+  - Usage
+  - Licence
+  - Contributing
+  - Tests
+  - Questions
 
 ### Installation
-${answers.installation}
+  ${answers.installation}
 
 
 ### Usage
-${answers.usage}
+  ${answers.usage}
 
 
 ### Licence
-${answers.licence}
+  ${answers.licence}
 
 
 ### Contributing 
-[${answers.contributing}](https://github.com/${answers.contributing})
+  GitHub Profile: [${answers.contributing}](https://github.com/${answers.contributing})
 
 
 ### Tests
-${answers.tests}
+  ${answers.tests}
 
 
 ### Questions
-If you have any questions about this project, please direct them to: [](${answers.questions}).
+  If you have any questions about this project, please direct them to: [](${answers.questions}).
 `
 ;
 
@@ -53,11 +59,6 @@ inquirer
       type: 'input',
       name: 'description',
       message: 'Describe your project, particularly its background, context and features:',
-    },
-    {
-      type: 'input',
-      name: 'contents',
-      message: 'Provide a table of contents:',
     },
     {
       type: 'input',
