@@ -1,43 +1,42 @@
 
-![GPL Licence](https://img.shields.io/badge/Licence-GPL-blue)
+![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue)
 
 
-# SOmething clever
+# something quite good
 
 
 ### Description
-  the features are thus:
+   no backgrounbd yet
 
 
 ### Table of Contents
-  - [Description](#Description)
-  - [Table of Contents](#Table of Contents)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Licence](#Licence)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+   - [Description](#Description)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Licence](#Licence)
+    - [Contributing](#Contributing)
+    - [Tests](#Tests)
+    - [Questions](#Questions)
 
 ### Installation
-  no steps. just enjoy
+    no steps needed
 
 
 ### Usage
-  no examples
+    example 1 2 and 3
 
 
 ### Licence
-  GPL
+   MIT
 
 
 ### Contributing 
-  GitHub Profile: [ArneTripolone](https://github.com/ArneTripolone)
+    GitHub Profile: [ArneTripolone](https://github.com/ArneTripolone)
 
 
 ### Tests
-  no good ones yet
+    here are some
 
 
 ### Questions
-  If you have any questions about this project, please direct them to: [](arnetripolone@gmail.com).
+    If you have any questions about this project, please direct them to: [](arnetripolone@gmail.com).

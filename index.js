@@ -10,41 +10,40 @@ const generateMD = (answers) =>
 
 
 ### Description
-  ${answers.description}
+   ${answers.description}
 
 
 ### Table of Contents
-  - [Description](#Description)
-  - [Table of Contents](#Table of Contents)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Licence](#Licence)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+   - [Description](#Description)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Licence](#Licence)
+    - [Contributing](#Contributing)
+    - [Tests](#Tests)
+    - [Questions](#Questions)
 
 ### Installation
-  ${answers.installation}
+    ${answers.installation}
 
 
 ### Usage
-  ${answers.usage}
+    ${answers.usage}
 
 
 ### Licence
-  ${answers.licence}
+   ${answers.licence}
 
 
 ### Contributing 
-  GitHub Profile: [${answers.contributing}](https://github.com/${answers.contributing})
+    GitHub Profile: [${answers.contributing}](https://github.com/${answers.contributing})
 
 
 ### Tests
-  ${answers.tests}
+    ${answers.tests}
 
 
 ### Questions
-  If you have any questions about this project, please direct them to: [](${answers.questions}).
+    If you have any questions about this project, please direct them to: [](${answers.questions}).
 `
 ;
 
