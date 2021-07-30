@@ -1,12 +1,12 @@
 
-![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue)
+![APACHE Licence](https://img.shields.io/badge/Licence-APACHE-blue)
 
 
-# Coding 404
+# coding 404
 
 
 ### Description
-    A project that enables you to track the weather
+    a project designed to test the security of mobile apps
 
 
 ### Table of Contents
@@ -19,26 +19,27 @@
 - [Questions](#Questions)
 
 ### Installation
-    no steps needed, maybe homebrew
+    use homebrew
 
 
 ### Usage
-    in the BOM
+    here are some examples:
 
 
 ### Licence
-    MIT
+    APACHE
 
 
-### Contributing 
+### Contributing
+GitHub Profiles of contributor(s):
   [ArneTripolone](https://github.com/ArneTripolone)
 
 
 ### Tests
-    Excellent outcomes
+    please see here:
 
 
 ### Questions
-    If you have any questions about this project, please direct them to: 
-  [](arnetripolone@gmail.com).
+If you have any questions about this repo, please direct them to
+  [](arnetripolone@gmail.com)
 

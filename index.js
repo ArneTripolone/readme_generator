@@ -34,7 +34,8 @@ const generateMD = (answers) =>
     ${answers.licence}
 
 
-### Contributing 
+### Contributing
+GitHub Profiles of contributor(s):
   [${answers.contributing}](https://github.com/${answers.contributing})
 
 
@@ -43,8 +44,8 @@ const generateMD = (answers) =>
 
 
 ### Questions
-    If you have any questions about this project, please direct them to: 
-  [](${answers.questions}).
+If you have any questions about this repo, please direct them to
+  [](${answers.questions})
 
 `
 ;
