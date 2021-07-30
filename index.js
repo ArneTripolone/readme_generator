@@ -45,7 +45,7 @@ GitHub profile of contributor(s):
 
 ### Questions
 If you have any questions about this repo, please direct them to:
-  [mailto](mailto:${answers.questions})
+  [${answers.questions}](mailto:${answers.questions})
 
 `
 ;

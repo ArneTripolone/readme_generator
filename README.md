@@ -1,5 +1,5 @@
 
-![Apache Licence](https://img.shields.io/badge/Licence-Apache-blue)
+![GPL Licence](https://img.shields.io/badge/Licence-GPL-blue)
 
 
 # coding 404
@@ -19,15 +19,15 @@
 - [Questions](#Questions)
 
 ### Installation
-    no steps, just enjoy
+    homebrew only
 
 
 ### Usage
-    here they are
+    here are the examples
 
 
 ### Licence
-    Apache
+    GPL
 
 
 ### Contributing
@@ -36,10 +36,10 @@ GitHub profile of contributor(s):
 
 
 ### Tests
-    here are some of the outcomes
+    none so far
 
 
 ### Questions
 If you have any questions about this repo, please direct them to:
-  [mailto](mailto:arnetripolone@gmail.com)
+  [arnetripolone@gmail.com](mailto:arnetripolone@gmail.com)
 
