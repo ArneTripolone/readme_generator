@@ -19,6 +19,8 @@ const fs = require('fs');
 
 const generateMD = (answers) =>
   `
+[${answers.licence} Licence](https://img.shields.io/badge/Licence-${answers.licence}-blue)
+
 # ${answers.title}
 
 ### Description
@@ -78,9 +80,6 @@ inquirer
       name: 'licence',
       message: 'Provide the licence for your project:',
       choices: ['MIT', 'GPL', 'Apache'],
-        //filter(val) {
-          //return val.toLowerCase();
-        //},
       },
     {
       type: 'input',
@@ -98,6 +97,7 @@ inquirer
       message: 'What questions do you have about the project?',
     },
   ])
+
   .then((answers) => {
     const mdPageContent = generateMD(answers);
 
@@ -107,7 +107,7 @@ inquirer
   });
 
 
-
+/*
   Step 1:-
   // Create a function that returns a license badge based on which license is passed in
   // If there is no license, return an empty string
@@ -119,3 +119,5 @@ inquirer
   // If there is no license, return an empty string
   Step 4:-
   // Create a function to generate markdown for README
+*/
+
