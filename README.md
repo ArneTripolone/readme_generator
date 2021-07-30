@@ -1,34 +1,34 @@
 
-![Apache Licence](https://img.shields.io/badge/Licence-Apache-blue)
+![GPL Licence](https://img.shields.io/badge/Licence-GPL-blue)
 
 
-# something good
+# SOmething clever
 
 
 ### Description
-  some key features are:
+  the features are thus:
 
 
 ### Table of Contents
-  - Description [Go to Description section](###Description)
-  - Table of Contents [Go to Table of Contents section](###Table of Contents)
-  - Installation [Go to Installation section](###Installation)
-  - Usage
-  - Licence
-  - Contributing
-  - Tests
-  - Questions
+  - [Description](#Description)
+  - [Table of Contents](#Table of Contents)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Licence](#Licence)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
 ### Installation
-  here are the steps...
+  no steps. just enjoy
 
 
 ### Usage
-  my project can be used in lots of ways
+  no examples
 
 
 ### Licence
-  Apache
+  GPL
 
 
 ### Contributing 
@@ -36,7 +36,7 @@
 
 
 ### Tests
-  Lots and lots of good ones
+  no good ones yet
 
 
 ### Questions

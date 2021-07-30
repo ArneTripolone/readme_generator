@@ -14,14 +14,14 @@ const generateMD = (answers) =>
 
 
 ### Table of Contents
-  - Description [Go to Description section](###Description)
-  - Table of Contents [Go to Table of Contents section](###Table of Contents)
-  - Installation [Go to Installation section](###Installation)
-  - Usage
-  - Licence
-  - Contributing
-  - Tests
-  - Questions
+  - [Description](#Description)
+  - [Table of Contents](#Table of Contents)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Licence](#Licence)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
 ### Installation
   ${answers.installation}
