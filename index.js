@@ -10,7 +10,7 @@ const generateMD = (answers) =>
 
 
 ### Description
-    ${answers.description}
+  ${answers.description}
 
 
 ### Table of Contents
@@ -23,15 +23,15 @@ const generateMD = (answers) =>
 - [Questions](#Questions)
 
 ### Installation
-    ${answers.installation}
+  ${answers.installation}
 
 
 ### Usage
-    ${answers.usage}
+  ${answers.usage}
 
 
 ### Licence
-    ${answers.licence}
+  ${answers.licence}
 
 
 ### Contributing
@@ -40,7 +40,7 @@ GitHub profile of contributor(s):
 
 
 ### Tests
-    ${answers.tests}
+  ${answers.tests}
 
 
 ### Questions
