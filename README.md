@@ -23,7 +23,7 @@
 
 
 ### Usage
-  This screencast shows the Readme Generator in use
+  This screencast shows the Readme Generator in use: https://youtu.be/65w2jTWnEkM 
 
 
 ### Licence
