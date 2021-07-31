@@ -76,7 +76,7 @@ inquirer
       type: 'list',
       name: 'licence',
       message: 'Provide the licence for your project:',
-      choices: ['MIT', 'GPL', 'Apache'],
+      choices: ['MIT', 'Apache', 'GPL'],
         },
     {
       type: 'input',
